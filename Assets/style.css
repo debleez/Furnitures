@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: poppins, sans-serif; */
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+.navbar .logo i{
+  font-size: 1.5rem;
+}
+.navbar p{
+  font-weight: 600;
+}
+.navbar .icons{
+  display: flex;
+  gap: .8rem;
+}
+.navbar .icons i{
+  font-size: 1.2rem;
+}
+.home-img-container{
+  width: 98%;
+  margin: auto;
+}
+.home-img{
+  background-image: url(/Assets/img/IMAGE1.jpg);
+  border-radius: 1rem;
+  height: 30rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  position: relative;
+}
+.home-img .home{
+  position: relative;
+  left: 30%;
+}
+.home-img .home .inside-img{
+  position: absolute;
+}
+.home-img h6{
+  font-weight: 700;
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  
+}
+.home-img h6 span{
+  position: relative;
+  bottom: 5px;
+  left: .5rem;
+  font-weight: 900;
+}
+.home-img h2{
+  font-size: 7rem;
+  font-weight: 300;
+}
+.home-img .btn{
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  gap: .5rem;
+  background: transparent;
+  position: absolute;
+  bottom: 2rem;
+}
+.btn button{
+  background: transparent;
+  border-radius: 2rem;
+  padding: .4rem;
+  border: 1px solid white;
+  color: white;
+  
+}
+.btn button:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.home-img p{
+  font-size: 500;
+  display: flex;
+  left: 15.5rem;
+  right: 0;
+  margin: 5px;
+  position: absolute;
+  width: 10rem;
+}
+
+.outside-img{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 1rem;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 12rem;
+}
+
+.about p{
+  display: flex;
+  left: 38rem;
+  right: 1rem;
+  margin: 7px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+}
+
+.about .about-child{
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 7.5%;
+}
+
+.about-child h6 span{
+  position: relative;
+  bottom: 7px;
+  left: .5rem;
+  font-weight: 900;
+}
+
+.about-child h6{
+  color: rgb(90, 88, 88);
+
+}
+
+.about-child span{
+  color: rgb(90, 88, 88);
+}
+
+.about-child h4{
+  left: 1rem;
+  font-weight: bolder;
+}
+
+.outside-img2{
+  display: flex;
+  justify-content: space-around;
+  position: relative
+}
+
+.outside-img2 .num{
+  text-align: center;
+  width: 15%;
+
+}
+
+.outside-img2 h6{
+  color: rgb(90, 88, 88);
+  text-align: center;
+  position: absolute;
+  width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
